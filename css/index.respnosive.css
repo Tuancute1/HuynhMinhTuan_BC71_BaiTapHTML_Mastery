@@ -1,0 +1,33 @@
+/* FONT SIZE */
+/* Mobile */
+@media(max-width: 479px) {
+    body {
+      font-size: 16px;
+    }
+  }
+ 
+  /* Tablet */
+  @media(min-width: 480px) and (max-width: 1024px) {
+    body {
+      font-size: 26px;
+    }
+  }
+ 
+  /* Desktop */
+  @media(min-width: 1025px) {
+    body {
+      font-size: 40px;
+    }
+  }
+  /* BUTTON */
+
+  @media(max-width: 768px){
+    .btn{
+        font-size: 14px;
+    }
+  }
+  @media(max-width: 576px){
+    .btn{
+        font-size: 12px;
+    }
+  }

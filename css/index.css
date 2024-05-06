@@ -1,0 +1,258 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.clear {
+  clear: both;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+  background-color: white;
+  letter-spacing: 1px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  border-radius: 20px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  font-size: 1.6rem;
+  background-color: rgb(253 200 0);
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: black;
+  color: white;
+}
+
+/* HEADER */
+.header__content {
+  width: 70%;
+  margin: 0 auto;
+}
+
+/* LOGO */
+.header__content {
+  margin-top: 15px;
+}
+
+.header__navbar-icon {
+  font-size: 1.6rem;
+}
+
+.header__navbar-icon-link {
+  background-color: rgb(0 33 70);
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  text-align: center;
+  padding-top: 11px;
+  padding-left: 11px;
+  color: rgb(253 200 0);
+  display: inline-flex;
+}
+
+.header__navbar-item h1 {
+  /* display: inline-flex; */
+  font-size: 3.5rem;
+  align-items: center;
+  color: black;
+}
+
+.header__navbar-item,
+.header__navbar-icon-link {
+  display: inline-flex;
+}
+
+/* MENU */
+#menu li {
+  width: 100px;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  position: relative;
+}
+
+#menu ul li a {
+  color: black;
+  display: block;
+  text-align: center;
+  font-size: 1.6rem;
+}
+
+#menu ul li a:hover {
+  color: white;
+  background-color: black;
+}
+
+#menu ul li>.sub__menu {
+  display: none;
+  position: absolute;
+}
+
+.sub__menu {
+  display: none;
+  position: absolute;
+}
+
+#menu ul li:hover .sub__menu {
+  display: block;
+}
+
+/* CAROUSEL */
+section {
+  /* display: none; */
+}
+
+.carousel {
+  height: 1000px;
+}
+
+.slide {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.slide::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}
+
+.slide-1 {
+  background-image: url(../img/carousel1.jpg);
+}
+
+.slide-2 {
+  background-image: url(../img/carousel2.jpg);
+}
+
+.slide-3 {
+  background-image: url(../img/carousel1.jpg);
+}
+
+.slide-content {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* WELCOME */
+
+.welcome {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.welcomer .contaier {
+  width: 100%;
+}
+
+.welcome__item {
+  width: 50%;
+  float: left;
+  padding: 30px;
+  font-size: 1.6rem;
+}
+
+.welcome__item h1 {
+  font-size: 2.5rem;
+}
+
+/* NUMBER */
+.number {
+  width: 100%;
+  margin: 15px auto;
+}
+
+.number .contaier {
+  width: 100%;
+}
+
+.aboutSchool__item {
+  background-color: rgb(246 246 246);
+  height: 100px;
+  float: left;
+  padding: 10px;
+  width: 25%;
+  display: block;
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+.aboutSchool__item h1 {
+  display: inline-block;
+  padding-top: 15px;
+  font-size: 5rem;
+}
+
+.aboutSchool__item p {
+  display: inline-block;
+  width: 40%;
+}
+
+/* SERVICES */
+
+.services {
+  width: 70%;
+  margin: 15px auto;
+}
+
+.services__container {
+  margin-left: 100px;
+}
+
+.services__item {
+  height: 100px;
+  background-color: rgb(0 33 70);
+  color: white;
+  float: left;
+  width: calc(100% / 5);
+  text-align: center;
+  margin: 10px;
+}
+
+.services__item i {
+  padding: 10px;
+  font-size: 3rem;
+  color: white;
+}
+
+.services__item p {
+  font-size: 2.5rem;
+  color: white;
+}
+
+.services__item:hover {
+  background-color: black;
+  color: white;
+}
