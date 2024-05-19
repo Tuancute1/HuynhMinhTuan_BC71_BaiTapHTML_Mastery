@@ -1,21 +1,21 @@
 /* FONT SIZE */
 /* Mobile */
 @media(max-width: 479px) {
-    body {
+    html {
       font-size: 16px;
     }
   }
  
   /* Tablet */
   @media(min-width: 480px) and (max-width: 1024px) {
-    body {
+    html {
       font-size: 26px;
     }
   }
  
   /* Desktop */
   @media(min-width: 1025px) {
-    body {
+    html {
       font-size: 40px;
     }
   }
