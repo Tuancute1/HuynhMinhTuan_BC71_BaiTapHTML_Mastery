@@ -13,11 +13,6 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
   <!-- ANIMATE -->
   <link rel="stylesheet" href="./css/animate.css" />
-  <!-- OWL CAROUSEL -->
-  <link rel="stylesheet" href="./css/owl.carousel.css" />
-  <link rel="stylesheet" href="./css/owl.theme.default.css" />
-  <!-- FONT SIZE RESPONSIVE -->
-  <link rel="stylesheet" href="./css/index.respnosive.css" />
   <!-- INDEX CSS -->
   <link rel="stylesheet" href="./css/index.css" />
 </head>
@@ -60,8 +55,8 @@
     </div>
     <div class="clear"></div>
   </header>
-  <!-- CAROUSEL -->
-  <section class="carousel">
+  <!-- BANNER -->
+  <section class="banner">
   </section>
   <!-- WELCOME -->
   <section class="welcome">
@@ -103,19 +98,23 @@
   </section>
   <!-- NUMBER -->
   <section class="number">
-    <div class="container">
+    <div class="number__container">
+      <!-- ABOUT SCHOLL ITEM 1 -->
       <div class="aboutSchool__item">
         <h1>60</h1>
         <p>PROFESSIONAL INSTRUCTIRS</p>
       </div>
+      <!-- ABOUT SCHOLL ITEM 2 -->
       <div class="aboutSchool__item">
         <h1>18</h1>
         <p>NEW COURSES EVERY YEAR</p>
       </div>
+      <!-- ABOUT SCHOLL ITEM 3 -->
       <div class="aboutSchool__item">
         <h1>34</h1>
         <p>LIVE SESSIONS EVERY MONTH</p>
       </div>
+      <!-- ABOUT SCHOLL ITEM 4 -->
       <div class="aboutSchool__item">
         <h1>20</h1>
         <p>REGISTERED STUDENTS</p>
@@ -128,6 +127,7 @@
   <!-- SERVICES -->
   <section class="services">
     <div class="services__container">
+      <!-- SERVICES ITEM 1 -->
       <div class="services__hover">
         <a href="#">
           <div class="services__item">
@@ -136,6 +136,7 @@
           </div>
         </a>
       </div>
+      <!-- SERVICES ITEM 2 -->
       <div class="services__hover">
         <a href="#">
           <div class="services__item">
@@ -144,6 +145,7 @@
           </div>
         </a>
       </div>
+      <!-- SERVICES ITEM 3 -->
       <div class="services__hover">
         <a href="#">
           <div class="services__item">
@@ -152,6 +154,7 @@
           </div>
         </a>
       </div>
+      <!-- SERVICES ITEM 4 -->
       <div class="services__hover">
         <a href="#">
           <div class="services__item">
@@ -160,6 +163,7 @@
           </div>
         </a>
       </div>
+      <!-- SERVICES ITEM 5 -->
       <div class="services__hover">
         <a href="#">
           <div class="services__item">
@@ -168,6 +172,7 @@
           </div>
         </a>
       </div>
+      <!-- SERVICES ITEM 6-->
       <div class="services__hover">
         <a href="#">
           <div class="services__item">
@@ -176,6 +181,7 @@
           </div>
         </a>
       </div>
+      <!-- SERVICES ITEM 7 -->
       <div class="services__hover">
         <a href="#">
           <div class="services__item">
@@ -184,6 +190,7 @@
           </div>
         </a>
       </div>
+      <!-- SERVICES ITEM 8 -->
       <div class="services__hover">
         <a href="#">
           <div class="services__item">
@@ -199,6 +206,7 @@
   <!-- NEWS -->
   <section class="news">
     <div class="news__container">
+      <!-- CAPTION NEWS -->
       <div class="caption__posts">
         <h1>Latest Posts</h1>
       </div>
@@ -278,6 +286,7 @@
       <!-- RIGHT -->
       <div class="news__item">
         <div class="news__item__right">
+          <!-- ITEM 1 -->
           <div class="news__item__events">
             <div class="news__item__events__top">
               <div class="right__item__gregorius">
@@ -298,6 +307,7 @@
               </div>
             </div>
           </div>
+          <!-- ITEM 2 -->
           <div class="news__item__events">
             <div class="news__item__events__bottom">
               <div class="right__item__gregorius">
@@ -332,16 +342,19 @@
         <!-- CONTACT -->
         <div class="footer__item">
           <div class="contact">
+
             <h1>Contact Us</h1>
+
             <i class="fa fa-map-marker-alt"><span>Estate Business, #32841 block, #221DRS Real estate business building, UK.</span></i>
-            
+
             <i id="phone" class="fa fa-phone"><a class="item" href="tel:+(21)-255-999-8888"><span>+(21)-255-999-8888</span></a></i>
-            
+
             <br>
+
             <a class="item" href="mailto:corporate-mail@support.com"
                 target="_blank"><i class="fa fa-envelope-open"></i> <span>corporate-mail@support.com</span>
               </a>
-            
+
           </div>
         </div>
         <!-- FEATURED -->
@@ -373,30 +386,17 @@
       </div>
     </div>
   </footer>
+  <!-- BACK TO TOP -->
+  <a href="#" class="backToTop cd-top text-replace js-cd-top"><i class="fa fa-chevron-up"></i></a>
   <!-- JQUERY 3.7.1-->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
     integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- JS BACK TO TOP -->
+  <script src="./js/backtotop.js"></script>
+  <script src="./js/util.js"></script>
   <!-- INDEX -->
   <script src="./js/index.js"></script>
-  <!-- OWL CAROUSEL -->
-  <script src="./js/owl.carousel.js"></script>
-  <script>
-    $(document).ready(function () {
-      $(".owl-carousel").owlCarousel({
-        animateOut: 'fadeOut',
-        item: 1,
-        loop: true,
-        nav: true,
-        dots: true,
-        autoplay: true,
-        autoplaySpeed: 500,
-        smartSpeed: 1000,
-        autoplayHoverPause: true
-      });
-
-    });
-  </script>
 </body>
 
 </html>
